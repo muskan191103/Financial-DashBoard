@@ -3,6 +3,11 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/font';
 import Image from 'next/image';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Login',
+};
 
 export default function Page() {
   return (
